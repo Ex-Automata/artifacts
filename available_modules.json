@@ -1,0 +1,8 @@
+[
+    {
+        "description": "The AI engine is responsible for processing user input, generating responses and all AI logic.",
+        "name": "Ai Engine",
+        "required": true,
+        "module_dependencies": "ai_engine_requirements.txt"
+    }
+]
