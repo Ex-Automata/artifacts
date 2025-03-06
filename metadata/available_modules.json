@@ -25,7 +25,9 @@
                 "name": "Placeholder Module 2",
                 "description": "Placeholder module 2 description.",
                 "required": true,
-                "module_dependencies": [],
+                "module_dependencies": [
+                    "Ai Engine"
+                ],
                 "install": "placeholder_module2_requirements.txt",
                 "version": [
                     "0.0.1"
@@ -35,7 +37,11 @@
                 "name": "Placeholder Module 3",
                 "description": "Placeholder module 3 description.",
                 "required": true,
-                "module_dependencies": [],
+                "module_dependencies": [
+                    "Ai Engine",
+                    "Placeholder Module 1",
+                    "Placeholder Module 2"
+                ],
                 "install": "placeholder_module3_requirements.txt",
                 "version": [
                     "0.0.1"
