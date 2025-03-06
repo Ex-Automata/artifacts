@@ -1,0 +1,4 @@
+
+haystack-ai==2.8.0
+ollama-haystack==0.0.7
+Flask==3.1.0
