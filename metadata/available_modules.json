@@ -1,118 +1,44 @@
 [
     {
-        "name": "Ai Engine",
-        "description": "The AI engine is responsible for processing user input, generating responses and all AI logic.",
-        "required": true,
-        "module_dependencies": [],
-        "install": "ai_engine_requirements.txt",
-        "version": [
-            "0.0.1"
-        ]
-    },
-    {
-        "name": "Placeholder Module 1",
-        "description": "Placeholder module 1 description.",
-        "required": true,
-        "module_dependencies": [],
-        "install": "placeholder_module1_requirements.txt",
-        "version": [
-            "0.0.1"
-        ]
-    },
-    {
-        "name": "Placeholder Module 2",
-        "description": "Placeholder module 2 description.",
+        "name": "Paige Core",
+        "description": "The core of Paige. Responsible of tying everyting else together.",
         "required": true,
         "module_dependencies": [
             "Ai Engine"
         ],
-        "install": "placeholder_module2_requirements.txt",
-        "version": [
-            "0.0.1"
-        ]
+        "install": "",
+        "download": "download.exautomata.ai/paige/paige_installer.exe",
+        "version": "0.0.1"
     },
     {
-        "name": "Placeholder Module 3",
-        "description": "Placeholder module 3 description.",
+        "name": "Ai Engine",
+        "description": "The AI engine is responsible for processing user input, generating responses and all AI logic.",
         "required": true,
-        "module_dependencies": [
-            "Ai Engine",
-            "Placeholder Module 1",
-            "Placeholder Module 2"
-        ],
-        "install": "placeholder_module3_requirements.txt",
-        "version": [
-            "0.0.1"
-        ]
-    },
-    {
-        "name": "Placeholder Module 4",
-        "description": "Placeholder module 4 description.",
-        "required": false,
         "module_dependencies": [],
-        "install": "placeholder_module4_requirements.txt",
-        "version": [
-            "0.0.1"
+        "versions": [
+            {
+                "install": "update.exautomata.ai/metadata/requirements/0.0.1_ai_engine_requirements.txt",
+                "download": "https://drive.google.com/uc?export=download&id=1wVnj2S0DeEA4Ea4Eb-K8ubE4C9H9GeZC",
+                "file": "ai_engine.cp312-win_amd64.pyd",
+                "version": "0.0.1",
+                "core_version": "0.0.1"
+            }
         ]
     },
     {
-        "name": "Placeholder Module 5",
+        "name": "Placeholder Module Required",
+        "description": "Placeholder module 1 description.",
+        "required": true,
+        "module_dependencies": [],
+        "install": "placeholder_module1_requirements.txt",
+        "version": "0.0.1"
+    },
+    {
+        "name": "Placeholder Module Optional",
         "description": "Placeholder module 5 description.",
         "required": false,
         "module_dependencies": [],
         "install": "placeholder_module5_requirements.txt",
-        "version": [
-            "0.0.1"
-        ]
-    },
-    {
-        "name": "Placeholder Module 6",
-        "description": "Placeholder module 6 description.",
-        "required": false,
-        "module_dependencies": [],
-        "install": "placeholder_module6_requirements.txt",
-        "version": [
-            "0.0.1"
-        ]
-    },
-    {
-        "name": "Placeholder Module 7",
-        "description": "Placeholder module 7 description.",
-        "required": false,
-        "module_dependencies": [],
-        "install": "placeholder_module7_requirements.txt",
-        "version": [
-            "0.0.1"
-        ]
-    },
-    {
-        "name": "Placeholder Module 8",
-        "description": "Placeholder module 8 description.",
-        "required": false,
-        "module_dependencies": [],
-        "install": "placeholder_module8_requirements.txt",
-        "version": [
-            "0.0.1"
-        ]
-    },
-    {
-        "name": "Placeholder Module 9",
-        "description": "Placeholder module 9 description.",
-        "required": false,
-        "module_dependencies": [],
-        "install": "placeholder_module9_requirements.txt",
-        "version": [
-            "0.0.1"
-        ]
-    },
-    {
-        "name": "Placeholder Module 10",
-        "description": "Placeholder module 10 description.",
-        "required": false,
-        "module_dependencies": [],
-        "install": "placeholder_module10_requirements.txt",
-        "version": [
-            "0.0.1"
-        ]
+        "version": "0.0.1"
     }
 ]
