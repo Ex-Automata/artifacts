@@ -41,6 +41,27 @@
         "versions": [
             {
                 "install": "placeholder_module1_requirements.txt",
+                "version": "1.0.1",
+                "module_dependencies": [
+                    {
+                        "Paige Core": "1.0.1"
+                    }
+                ]
+            },
+            {
+                "install": "placeholder_module1_requirements.txt",
+                "version": "0.0.2",
+                "module_dependencies": [
+                    {
+                        "Paige Core": "0.0.2"
+                    },
+                    {
+                        "Ai Engine": "0.0.2"
+                    }
+                ]
+            },
+            {
+                "install": "placeholder_module1_requirements.txt",
                 "version": "0.0.1",
                 "module_dependencies": [
                     {
