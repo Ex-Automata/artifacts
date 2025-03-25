@@ -3,42 +3,70 @@
         "name": "Paige Core",
         "description": "The core of Paige. Responsible of tying everyting else together.",
         "required": true,
-        "module_dependencies": [
-            "Ai Engine"
-        ],
-        "install": "",
-        "download": "download.exautomata.ai/paige/paige_installer.exe",
-        "version": "0.0.1"
+        "versions": [
+            {
+                "install": "",
+                "download": "download.exautomata.ai/paige/paige_installer.exe",
+                "version": "0.0.1",
+                "module_dependencies": [
+                    {
+                        "Ai Engine": "0.0.1"
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Ai Engine",
         "description": "The AI engine is responsible for processing user input, generating responses and all AI logic.",
         "required": true,
-        "module_dependencies": [],
         "versions": [
             {
                 "install": "update.exautomata.ai/metadata/requirements/0.0.1_ai_engine_requirements.txt",
                 "download": "https://drive.google.com/uc?export=download&id=1wVnj2S0DeEA4Ea4Eb-K8ubE4C9H9GeZC",
                 "file": "ai_engine.cp312-win_amd64.pyd",
                 "version": "0.0.1",
-                "core_version": "0.0.1"
+                "module_dependencies": [
+                    {
+                        "Paige Core": "0.0.1"
+                    }
+                ]
             }
         ]
     },
     {
         "name": "Placeholder Module Required",
         "description": "Placeholder module 1 description.",
-        "required": true,
-        "module_dependencies": [],
-        "install": "placeholder_module1_requirements.txt",
-        "version": "0.0.1"
+        "required": false,
+        "versions": [
+            {
+                "install": "placeholder_module1_requirements.txt",
+                "version": "0.0.1",
+                "module_dependencies": [
+                    {
+                        "Paige Core": "0.0.1"
+                    },
+                    {
+                        "Ai Engine": "0.0.1"
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Placeholder Module Optional",
         "description": "Placeholder module 5 description.",
         "required": false,
-        "module_dependencies": [],
-        "install": "placeholder_module5_requirements.txt",
-        "version": "0.0.1"
+        "versions": [
+            {
+                "install": "placeholder_module5_requirements.txt",
+                "version": "0.0.1",
+                "module_dependencies": [
+                    {
+                        "Paige Core": "0.0.1"
+                    }
+                ]
+            }
+        ]
     }
 ]
