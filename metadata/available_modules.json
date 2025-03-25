@@ -35,7 +35,7 @@
         ]
     },
     {
-        "name": "Placeholder Module Required",
+        "name": "Placeholder Module Optional 1",
         "description": "Placeholder module 1 description.",
         "required": false,
         "versions": [
@@ -75,16 +75,34 @@
         ]
     },
     {
-        "name": "Placeholder Module Optional",
-        "description": "Placeholder module 5 description.",
+        "name": "Placeholder Module Optional 2",
+        "description": "Placeholder module 2 description.",
         "required": false,
         "versions": [
+            {
+                "install": "placeholder_module5_requirements.txt",
+                "version": "0.0.3",
+                "module_dependencies": [
+                    {
+                        "Placeholder Module Optional 1": "1.0.1"
+                    }
+                ]
+            },
+            {
+                "install": "placeholder_module5_requirements.txt",
+                "version": "0.0.2",
+                "module_dependencies": [
+                    {
+                        "Placeholder Module Optional 1": "0.0.2"
+                    }
+                ]
+            },
             {
                 "install": "placeholder_module5_requirements.txt",
                 "version": "0.0.1",
                 "module_dependencies": [
                     {
-                        "Paige Core": "0.0.1"
+                        "Placeholder Module Optional 1": "0.0.1"
                     }
                 ]
             }
