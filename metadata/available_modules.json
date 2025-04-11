@@ -5,7 +5,6 @@
         "required": true,
         "versions": [
             {
-                "install": "",
                 "download": "download.exautomata.ai/paige/paige_installer.exe",
                 "version": "0.0.1",
                 "module_dependencies": [
@@ -22,9 +21,7 @@
         "required": true,
         "versions": [
             {
-                "install": "update.exautomata.ai/metadata/requirements/0.0.1_ai_engine_requirements.txt",
-                "download": "https://drive.google.com/uc?export=download&id=1wVnj2S0DeEA4Ea4Eb-K8ubE4C9H9GeZC",
-                "file": "ai_engine.cp312-win_amd64.pyd",
+                "download": "https://drive.google.com/uc?export=download&id=16lfNwX-BTh4jO1YMhloXp4bBRqOYnGQx",
                 "version": "0.0.1",
                 "module_dependencies": [
                     {
@@ -40,7 +37,6 @@
         "required": false,
         "versions": [
             {
-                "install": "placeholder_module1_requirements.txt",
                 "version": "1.0.1",
                 "module_dependencies": [
                     {
@@ -49,7 +45,6 @@
                 ]
             },
             {
-                "install": "placeholder_module1_requirements.txt",
                 "version": "0.0.2",
                 "module_dependencies": [
                     {
@@ -61,7 +56,6 @@
                 ]
             },
             {
-                "install": "placeholder_module1_requirements.txt",
                 "version": "0.0.1",
                 "module_dependencies": [
                     {
@@ -80,7 +74,6 @@
         "required": false,
         "versions": [
             {
-                "install": "placeholder_module5_requirements.txt",
                 "version": "0.0.3",
                 "module_dependencies": [
                     {
@@ -89,7 +82,6 @@
                 ]
             },
             {
-                "install": "placeholder_module5_requirements.txt",
                 "version": "0.0.2",
                 "module_dependencies": [
                     {
@@ -98,7 +90,6 @@
                 ]
             },
             {
-                "install": "placeholder_module5_requirements.txt",
                 "version": "0.0.1",
                 "module_dependencies": [
                     {
