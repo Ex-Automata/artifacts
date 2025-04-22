@@ -21,7 +21,8 @@
         "required": true,
         "versions": [
             {
-                "download": "https://drive.google.com/uc?export=download&id=16lfNwX-BTh4jO1YMhloXp4bBRqOYnGQx",
+                "download": "https://drive.google.com/uc?export=download&id=1KZ6bifZdpKcpZvn_a-qIvGBx37s-A7IZ",
+                "download_local": "dist/modules/ai_engine.paige",
                 "version": "0.0.1",
                 "module_dependencies": [
                     {
