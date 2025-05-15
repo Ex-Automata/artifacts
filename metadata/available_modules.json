@@ -1,7 +1,11 @@
 [
     {
         "name": "Paige Core",
-        "description": "The core of Paige. Responsible of tying everyting else together.",
+        "labels": {
+            "en": {
+                "description": "The core of Paige. Responsible of tying everyting else together."
+            }
+        },
         "required": true,
         "versions": [
             {
@@ -17,7 +21,11 @@
     },
     {
         "name": "Ai Engine",
-        "description": "The AI engine is responsible for processing user input, generating responses and all AI logic.",
+        "labels": {
+            "en": {
+                "description": "The AI engine is responsible for processing user input, generating responses and all AI logic."
+            }
+        },
         "required": true,
         "versions": [
             {
