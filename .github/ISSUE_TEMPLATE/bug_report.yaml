@@ -1,0 +1,31 @@
+# .github/ISSUE_TEMPLATE/bug_report.yml
+
+name: 🐛 Bug Report
+description: Report a bug or crash to help us improve.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the Problem
+      description: "Please provide a clear and concise description of what the bug is. What happened and what did you expect to happen?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Upload Your Log File
+      description: |
+        This is the most important step! Your log file contains the error details and all the module versions we need to diagnose the problem.
+
+        1.  Find your log file at `C:\Users\<Your Username>\AppData\Roaming\paige\temp\paige.log`
+        2.  Drag and drop the `paige.log` file directly into this text box to upload it.
+        3.  Alternatively, you can open the file and paste its contents here.
+
+        **Note:** Please review the log for any sensitive information you may wish to remove before uploading.
+
+        Alternatively you can copy and paste a snippet of log contents here, or at the very least mention the current version of each module you are using.
+    validations:
+      required: false

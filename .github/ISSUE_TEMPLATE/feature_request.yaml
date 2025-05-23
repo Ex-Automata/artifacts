@@ -1,0 +1,19 @@
+# .github/ISSUE_TEMPLATE/feature_request.yml
+
+name: ✨ Feature Request
+description: Suggest an idea or new feature for the application.
+title: "[Request]: "
+labels: ["enhancement", "feature"]
+body:
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Describe your feature request
+      description: |
+        Tell us about your idea!
+        - What problem is your feature trying to solve?
+        - How do you envision it working?
+        - Are there any alternatives you've considered?
+      placeholder: "I wish Paige could..."
+    validations:
+      required: true
