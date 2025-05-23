@@ -29,80 +29,11 @@
         "required": true,
         "versions": [
             {
-                "download": "https://drive.google.com/uc?export=download&id=1KZ6bifZdpKcpZvn_a-qIvGBx37s-A7IZ",
-                "download_local": "dist/modules/ai_engine.paige",
+                "download": "https://github.com/Syzygy2048/paige_artifacts/releases/download/ai_engine-v0.0.1/ai_engine.paige",
                 "version": "0.0.1",
                 "module_dependencies": [
                     {
                         "Paige Core": "0.0.1"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Placeholder Module Optional 1",
-        "description": "Placeholder module 1 description.",
-        "required": false,
-        "versions": [
-            {
-                "version": "1.0.1",
-                "module_dependencies": [
-                    {
-                        "Paige Core": "1.0.1"
-                    }
-                ]
-            },
-            {
-                "version": "0.0.2",
-                "module_dependencies": [
-                    {
-                        "Paige Core": "0.0.2"
-                    },
-                    {
-                        "Ai Engine": "0.0.2"
-                    }
-                ]
-            },
-            {
-                "version": "0.0.1",
-                "module_dependencies": [
-                    {
-                        "Paige Core": "0.0.1"
-                    },
-                    {
-                        "Ai Engine": "0.0.1"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Placeholder Module Optional 2",
-        "description": "Placeholder module 2 description.",
-        "required": false,
-        "versions": [
-            {
-                "version": "0.0.3",
-                "module_dependencies": [
-                    {
-                        "Placeholder Module Optional 1": "1.0.1"
-                    }
-                ]
-            },
-            {
-                "version": "0.0.2",
-                "module_dependencies": [
-                    {
-                        "Placeholder Module Optional 1": "0.0.2"
-                    }
-                ]
-            },
-            {
-                "version": "0.0.1",
-                "module_dependencies": [
-                    {
-                        "Placeholder Module Optional 1": "0.0.1"
                     }
                 ]
             }
