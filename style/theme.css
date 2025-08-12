@@ -1,0 +1,45 @@
+/* ========= THEME ========= */
+/* === Defaults === */
+:root{
+    --bg: #0b0c0f;
+    --panel: #0f1116;
+    --card: #141720;
+    --text: #e7eaf3;
+    --muted: #9aa3b2;
+    --shadow: 0 10px 30px rgba(0,0,0,.35);/* Mint */
+    --ring: 0 0 0 1px rgba(255,255,255,.08), 0 0 0 4px color-mix(in srgb, var(--primary) 20%, transparent);
+    --radius: 14px;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Noto Sans", Arial, sans-serif;
+}
+
+/* === Dark Theme === */
+@media (prefers-color-scheme: dark) {
+    :root {
+    --bg: #0b0c0f;
+    --panel: #0f1116;
+    --card: #141720;
+    --text: #e7eaf3;
+    --muted: #9aa3b2;
+    --shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
+}
+
+/* === Light Theme === */
+@media (prefers-color-scheme: light) {
+    :root {
+    --bg: #f7f8fb;
+    --panel: #ffffff;
+    --card: #ffffff;
+    --text: #101218;
+    --muted: #556070;
+    --shadow: 0 8px 24px rgba(0,0,0,.08);
+    }
+}
+
+/* === Palettes === */
+:root { --primary: hsl(24 100% 50%); --secondary: hsl(221 91% 66%); --accent: hsl(158 61% 55%); } /* safety-first default */
+:root[data-palette="safety-first"] { --primary: hsl(24 100% 50%); --secondary: hsl(221 91% 66%); --accent: hsl(158 61% 55%); }
+:root[data-palette="ocean"]        { --primary: hsl(203 89% 56%); --secondary: hsl(212 54% 18%); --accent: hsl(191 100% 50%); }
+:root[data-palette="forest"]       { --primary: hsl(129 47% 48%); --secondary: hsl(153 49% 12%); --accent: hsl(86 97% 45%); }
+:root[data-palette="mauve"]        { --primary: hsl(263 74% 60%); --secondary: hsl(248 19% 16%); --accent: hsl(191 100% 50%); }
+:root[data-palette="monochrome"]   { --primary: hsl(222 6% 57%);  --secondary: hsl(0 0% 10%);   --accent: hsl(225 10% 72%); }
