@@ -56,10 +56,10 @@
             return doc.getAttribute("data-theme");
         },
         getPalettes() {
-            return [...availablePalettes];
+            return availablePalettes;
         },
         getThemes() {
-            return [...availableThemes];
+            return availableThemes;
         }
     };
 })();
