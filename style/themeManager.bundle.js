@@ -34,7 +34,7 @@
 
     window.ThemeManager = {
         setPalette(p) {
-            if (!availablePalettes.includes(p)) {
+            if (!p in availablePalettes) {
                 console.warn(`Palette "${p}" not found. Available:`, availablePalettes);
                 return;
             }
@@ -42,7 +42,7 @@
             localStorage.setItem(key_palette, p);
         },
         setTheme(m) {
-            if (!availableThemes.includes(m)) {
+            if (!(m in availableThemes)) {
                 console.warn(`Theme "${m}" not found. Available:`, availableThemes);
                 return;
             }
