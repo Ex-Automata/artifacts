@@ -14,7 +14,7 @@
 
 /* === Dark Theme === */
 @media (prefers-color-scheme: dark) {
-    :root {
+:root [data-mode="dark"] {
     --bg: #0b0c0f;
     --panel: #0f1116;
     --card: #141720;
@@ -26,7 +26,7 @@
 
 /* === Light Theme === */
 @media (prefers-color-scheme: light) {
-    :root {
+:root [data-mode="light"] {
     --bg: #f7f8fb;
     --panel: #ffffff;
     --card: #ffffff;
